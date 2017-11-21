@@ -66,7 +66,7 @@ h2.resp-accordion {
 
 .resp-tab-active,.resp-tabs-list li:hover,li.resp-tab-item.resp-tab-active {
   border-bottom: none;
-    background: #02a388;
+    background: #7A0000;
 }
 
 .resp-content-active,
@@ -148,7 +148,7 @@ ul.resp-tabs-list.inner-second {
   margin-top: 3px;
   border-left: 6px solid transparent;
   border-right: 6px solid transparent;
-  border-top: 12px solid #02a388;
+  border-top: 12px solid #7A0000;
 }
 
 h2.resp-tab-active span.resp-arrow {
