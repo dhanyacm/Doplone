@@ -3,3 +3,5 @@ markdown: kramdown
 theme: jekyll-theme-cayman
 plugins:
   - jekyll-sitemap
+baseurl: /Doplone
+url: http://dhanyacm.github.io/
