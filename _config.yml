@@ -1,0 +1,5 @@
+name: Doplone
+markdown: kramdown
+theme: jekyll-theme-cayman
+plugins:
+  - jekyll-sitemap
