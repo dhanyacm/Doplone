@@ -1,7 +1,13 @@
 <!--/main-header-->
   <!--/banner-section-->
+{% if page.frontpage %}
 	<div id="demo-1" data-zs-src='["{{site.baseurl}}/images/2.jpg", "{{site.baseurl}}/images/1.jpg", "{{site.baseurl}}/images/3.jpg","{{site.baseurl}}/images/4.jpg"]' data-zs-overlay="dots"> <!-- data-zs-overlay="dots" -->
 		<div class="demo-inner-content">
+{% else %}
+	<div id="demo-1" class="banner-inner">
+	       <div class="banner-inner-dott">
+{% endif %}	
+			
 		<!--/header-w3l-->
 			   <div class="header-w3-agileits" id="home">
 			     <div class="inner-header-agile">	
