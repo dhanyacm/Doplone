@@ -5,8 +5,11 @@ plugins:
   - jekyll-sitemap
 baseurl: /doplone
 url: http://dhanyacm.github.io/
+include: ["_pages"]
 collections:
 - poetry
 - collectables
 - events
 collections_dir: my_collections
+permalink: /:title/
+
