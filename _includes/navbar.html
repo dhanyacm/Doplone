@@ -22,14 +22,14 @@
 					<!-- navbar-header -->
 					<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
 							<ul class="nav navbar-nav">
-							<li class="active"><a href="index.html">Home</a></li>
-							<li class="dropdown">
+							<li {% if page.frontpage %}class="active"{% endif %}><a href="index.html">Home</a></li>
+							<li class="dropdown" {% if page.songeotry %}class="active"{% endif %}>
 								<a href="#" class="dropdown-toggle" data-toggle="dropdown">Songeotry <b class="caret"></b></a>
 								<ul class="dropdown-menu multi-column columns-3">
 									<li>
 									<div class="col-sm-4">
 										<ul class="multi-column-dropdown">
-											
+											<!--
 											<li><a href="genre.html">Action</a></li>
 											<li><a href="genre.html">Biography</a></li>
 											<li><a href="genre.html">Crime</a></li>
@@ -56,18 +56,18 @@
 											<li><a href="genre.html">Drama</a></li>
 											<li><a href="genre.html">History</a></li>
 											<li><a href="genre.html">Musical</a></li>
-											<li><a href="genre.html">Psychological</a></li>
-											<li><a href="list.html">A - z Songeotry</a></li>
+											<li><a href="genre.html">Psychological</a></li> -->
+											<li><a href="list.html">A - Z</a></li>
 										</ul>
 									</div>
 									<div class="clearfix"></div>
 									</li>
 								</ul>
 							</li>							
-							<li><a href="series.html">Collectables</a></li>
-							<li><a href="series.html">Studio</a></li>
-							<li><a href="news.html">Blog</a></li>
-							<li><a href="contact.html">Contact</a></li>
+							<li {% if page.gifts %}class="active"{% endif %}><a href="series.html">Collectables</a></li>
+							<li {% if page.studio %}class="active"{% endif %}><a href="series.html">Studio</a></li>
+							<li {% if page.blog %}class="active"{% endif %}><a href="news.html">Blog</a></li>
+							<li {% if page.contact %}class="active"{% endif %}><a href="contact.html">Contact</a></li>
 						</ul>
 
 					</div>
